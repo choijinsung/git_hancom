@@ -1,0 +1,124 @@
+body {
+  font-family: "Noto Sans KR", sans-serif
+}
+
+h4.title {
+  margin: 90px 0 0;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 42px;
+  font-weight: 600;
+}
+.container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 25%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  border-left: 1px solid rgba(0, 0, 0, 0.09);
+  border-right: 1px solid rgba(0, 0, 0, 0.09);
+  position: relative;
+  padding: 38px 27px 19px;
+}
+.card h2 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+.card .fee-per-year {
+  margin-top: 8px;
+}
+.card .fee-per-year .fee {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+.card .fee-per-year .per-year {
+  font-size: 0.813rem;
+  padding-left: 2px;
+}
+.card .fee-description {
+  margin-top: 10px;
+}
+.card .fee-description span {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 0.8125rem;
+  color: rgba(54, 54, 54, 0.67);
+}
+.card .contents-box .contents li {
+  position: relative;
+  font-size: 0.875rem;
+  line-height: 18px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.card .contents-box .contents li::before {
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding: 0.1rem;
+  position: absolute;
+  top: 0;
+  left: -0.5rem;
+  /* Font Awesome */
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  font-size: 1.25rem;
+  content: "\f058";
+}
+.card-left {
+  height: 480px;
+  border-top: 2px solid #000;
+}
+.card-left h2 {
+  color: #999795;
+}
+.card-left .contents-box {
+  width: 100%;
+  height: 100px;
+  margin-top: 110px;
+}
+.card-left .contents-box .contents li::before {
+  color: #8A8A97;
+}
+.card-middle {
+  height: 500px;
+  border-top: 2px solid rgb(74, 187, 252);
+  box-shadow: rgb(0 0 0 / 16%) 0px 6px 24px 0px;
+}
+.card-middle h2 {
+  color:rgb(74, 187, 252);
+}
+.card-middle .contents-box {
+  width: 100%;
+  height: 110px;
+  margin-top: 50px;
+}
+.card-middle .contents-box .contents li::before {
+  color: #88c3e6;
+}
+.card-middle .contents-description {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.66;
+  color: rgba(54, 54, 54, 0.5);
+}
+.card-right {
+  height: 480px;
+  border-top: 2px solid rgb(136, 126, 252);
+}
+.card-right h2 {
+  color:rgb(136, 126, 252);
+}
+.card-right .contents-box {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+}
+.card-right .contents-box .contents li::before {
+  color: #bf8bf3;
+}
